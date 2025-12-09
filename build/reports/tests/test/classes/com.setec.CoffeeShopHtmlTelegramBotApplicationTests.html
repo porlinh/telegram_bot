@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.074s</div>
+<div class="counter">0.060s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 <a name="contextLoads()"></a>
 <h3 class="failures">contextLoads()</h3>
 <span class="code">
-<pre>java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@3b0c38f2 testClass = com.setec.CoffeeShopHtmlTelegramBotApplicationTests, locations = [], classes = [com.setec.CoffeeShopHtmlTelegramBotApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@13f17eb4, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@20a14b55, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@75b25825, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@57459491, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@68b6f0d6, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@60a2630a, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@dfb37fb4], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+<pre>java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4b86a656 testClass = com.setec.CoffeeShopHtmlTelegramBotApplicationTests, locations = [], classes = [com.setec.CoffeeShopHtmlTelegramBotApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@13f17eb4, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@20a14b55, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@75b25825, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@57459491, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@68b6f0d6, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@60a2630a, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@dfb37fb4], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200)
@@ -199,7 +199,7 @@ Caused by: java.net.UnknownHostException: dpg-d4rgn1emcj7s7385q340-a
 </thead>
 <tr>
 <td class="failures">contextLoads()</td>
-<td class="failures">0.074s</td>
+<td class="failures">0.060s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -208,8 +208,8 @@ Caused by: java.net.UnknownHostException: dpg-d4rgn1emcj7s7385q340-a
 <h2>Standard output</h2>
 <span class="code">
 <pre>Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
-14:22:19.046 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.setec.CoffeeShopHtmlTelegramBotApplicationTests]: CoffeeShopHtmlTelegramBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:22:19.405 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.setec.CoffeeShopHtmlTelegramBotApplication for test class com.setec.CoffeeShopHtmlTelegramBotApplicationTests
+14:43:50.360 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.setec.CoffeeShopHtmlTelegramBotApplicationTests]: CoffeeShopHtmlTelegramBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:43:50.673 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.setec.CoffeeShopHtmlTelegramBotApplication for test class com.setec.CoffeeShopHtmlTelegramBotApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -220,18 +220,18 @@ Caused by: java.net.UnknownHostException: dpg-d4rgn1emcj7s7385q340-a
 
  :: Spring Boot ::                (v3.5.7)
 
-2025-12-09T14:22:21.329+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] offeeShopHtmlTelegramBotApplicationTests : Starting CoffeeShopHtmlTelegramBotApplicationTests using Java 21.0.8 with PID 7464 (started by ADMIN in C:\sts-4.31.0.RELEASE\WorkSpaces\coffee-shop-html-telegram-bot)
-2025-12-09T14:22:21.335+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] offeeShopHtmlTelegramBotApplicationTests : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2025-12-09T14:22:23.481+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-09T14:22:23.595+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
-2025-12-09T14:22:26.003+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-09T14:22:26.113+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-12-09T14:22:26.176+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-09T14:22:27.621+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-09T14:22:27.665+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-09T14:22:30.302+07:00  WARN 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
-2025-12-09T14:22:30.303+07:00 ERROR 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : The connection attempt failed.
-2025-12-09T14:22:30.307+07:00  WARN 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-12-09T14:43:52.094+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] offeeShopHtmlTelegramBotApplicationTests : Starting CoffeeShopHtmlTelegramBotApplicationTests using Java 21.0.8 with PID 22232 (started by ADMIN in C:\sts-4.31.0.RELEASE\WorkSpaces\coffee-shop-html-telegram-bot)
+2025-12-09T14:43:52.098+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] offeeShopHtmlTelegramBotApplicationTests : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-12-09T14:43:54.074+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09T14:43:54.225+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2025-12-09T14:44:00.853+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09T14:44:00.961+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-12-09T14:44:01.038+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-09T14:44:01.650+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09T14:44:01.701+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09T14:44:04.297+07:00  WARN 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2025-12-09T14:44:04.297+07:00 ERROR 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : The connection attempt failed.
+2025-12-09T14:44:04.302+07:00  WARN 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [The connection attempt failed.] [n/a]
 	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
@@ -397,8 +397,8 @@ Caused by: java.net.UnknownHostException: dpg-d4rgn1emcj7s7385q340-a
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289) ~[postgresql-42.7.8.jar:42.7.8]
 	... 145 common frames omitted
 
-2025-12-09T14:22:30.482+07:00  WARN 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-09T14:22:30.501+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-09T14:44:04.475+07:00  WARN 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09T14:44:04.490+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (null)']
 	Database driver: undefined/unknown
 	Database version: 12.0
@@ -406,16 +406,16 @@ Caused by: java.net.UnknownHostException: dpg-d4rgn1emcj7s7385q340-a
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-09T14:22:31.540+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-09T14:22:31.569+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-09T14:22:32.580+07:00  WARN 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
-2025-12-09T14:22:32.582+07:00 ERROR 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : The connection attempt failed.
-2025-12-09T14:22:32.591+07:00 ERROR 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
-2025-12-09T14:22:32.597+07:00  WARN 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
-2025-12-09T14:22:32.708+07:00  INFO 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-12-09T14:44:05.828+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09T14:44:05.852+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09T14:44:06.860+07:00  WARN 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2025-12-09T14:44:06.860+07:00 ERROR 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : The connection attempt failed.
+2025-12-09T14:44:06.880+07:00 ERROR 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+2025-12-09T14:44:06.885+07:00  WARN 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+2025-12-09T14:44:07.012+07:00  INFO 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-12-09T14:22:32.904+07:00 ERROR 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.boot.SpringApplication               : Application run failed
+2025-12-09T14:44:07.217+07:00 ERROR 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.12.jar:6.2.12]
@@ -591,9 +591,9 @@ Caused by: java.net.UnknownHostException: dpg-d4rgn1emcj7s7385q340-a
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289) ~[postgresql-42.7.8.jar:42.7.8]
 	... 149 common frames omitted
 
-2025-12-09T14:22:32.943+07:00  WARN 7464 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.setec.CoffeeShopHtmlTelegramBotApplicationTests@5cc152f9]
+2025-12-09T14:44:07.319+07:00  WARN 22232 --- [coffee-shop-html-telegram-bot] [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.setec.CoffeeShopHtmlTelegramBotApplicationTests@1117cc7c]
 
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@3b0c38f2 testClass = com.setec.CoffeeShopHtmlTelegramBotApplicationTests, locations = [], classes = [com.setec.CoffeeShopHtmlTelegramBotApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@13f17eb4, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@20a14b55, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@75b25825, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@57459491, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@68b6f0d6, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@60a2630a, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@dfb37fb4], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4b86a656 testClass = com.setec.CoffeeShopHtmlTelegramBotApplicationTests, locations = [], classes = [com.setec.CoffeeShopHtmlTelegramBotApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@13f17eb4, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@20a14b55, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@75b25825, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@57459491, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@68b6f0d6, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@60a2630a, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@dfb37fb4], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.2.12.jar:6.2.12]
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.2.12.jar:6.2.12]
 	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200) ~[spring-test-6.2.12.jar:6.2.12]
@@ -1944,7 +1944,7 @@ Unconditional classes:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.14.3</a> at Dec 9, 2025, 2:22:33 PM</p>
+<a href="https://www.gradle.org">Gradle 8.14.3</a> at Dec 9, 2025, 2:44:07 PM</p>
 </div>
 </div>
 </body>
